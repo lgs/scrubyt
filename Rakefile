@@ -5,7 +5,7 @@ require 'spec/rake/spectask'
 
 gem_spec = Gem::Specification.new do |s|
   s.name = 'scrubyt-experimental'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.summary = 'From-scratch rewrite of scRUBYt! with 100% code coverage, modular architecture, lightweight code etc. Somefunctionality is still missing from the original scRUBYt!'
   s.description = %{scRUBYt! is an easy to learn and use, yet powerful and effective web scraping framework. It's most interesting part is a Web-scraping DSL built on HPricot and WWW::Mechanize, which allows to navigate to the page of interest, then extract and query data records with a few lines of code. It is hard to describe scRUBYt! in a few sentences - you have to see it for yourself!}
   s.test_files = FileList['spec/**/*']

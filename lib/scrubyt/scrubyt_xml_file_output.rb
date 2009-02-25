@@ -1,6 +1,6 @@
 require 'rexml/document'
-require "#{File.dirname(__FILE__)}/inflector"
-require "#{File.dirname(__FILE__)}/inflections"
+require "#{File.dirname(__FILE__)}/../../plugins/scrubyt_xml_file_output/inflector"
+require "#{File.dirname(__FILE__)}/../../plugins/scrubyt_xml_file_output/inflections"
 
 class Scrubyt::Output::XmlFile < Scrubyt::Output::Plugin  
   @subscribers = {}
